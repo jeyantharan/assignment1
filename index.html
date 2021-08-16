@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <div class="contain" >
+         
+        <ul class="nav">
+            <li class="yellow">Show<b>Tracker</b></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add.html" id="butadd">Add</a></li>
+            <span>
+            <li ><a href="login.html">Login</a></li>
+            <li ><a href="signup.html">Sign up</a></li>
+            </span>
+        </ul>
+            
+    
+    
+        <header class="head">
+            <div class="hsub">
+            <div class="abc">
+                <a href="" id="a" value="A">0-9</a>
+                <a href="">A</a>
+                <a href="">B</a>
+                <a href="">C</a>
+                <a href="">D</a>
+                <a href="">E</a>
+                <a href="">F</a>
+                <a href="">G</a>
+                <a href="">H</a>
+                <a href="">I</a>
+                <a href="">J</a>
+                <a href="">K</a>
+                <a href="">L</a>
+                <a href="">M</a>
+                <a href="">N</a>
+                <a href="">O</a>
+                <a href="">P</a>
+                <a href="">Q</a>
+                <a href="">R</a>
+                <a href="">S</a>
+                <a href="">T</a>
+                <a href="">U</a>
+                <a href="">V</a>
+                <a href="">W</a>
+                <a href="">X</a>
+                <a href="">Y</a>
+                <a href="">Z</a>
+            </div>
+            <div class="cata">
+                <a href="" >Action</a>
+                <a href="" >Romance</a>
+                <a href="" >Comedy</a>
+                <a href="" >Thriller</a>
+                <a href="">Crime</a>
+            </div>
+        </div>
+        </header>
+        <main class="main">
+            <center>
+        
+            <div class="table">
+
+                <table>
+                    <tr>
+                        <td colspan="4" class="x"><b>TOP 12 SHOWS</b>
+                        
+                        <input type="text" placeholder="Search..."></td>
+                    </tr>
+                    <tbody id="myTable">
+                    <tr>
+                        <td><img src="image/master.jpeg" alt=""><br><a href="master.html">Master</a></td>
+                        <td><img src="image/sarbath.jpg" alt=""><br><a href="">Sarbath</a></td>
+                        <td><img src="image/Sarpatta_Parambarai.jpg" alt=""><br><a href="">Sarpatta Paramparai</a></td>
+                        <td><img src="image/eswaran.jpeg" alt=""><br><a href="">Eswaran</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/aadukalam.jpeg" alt=""><br><a href="">Aadukalam</a></td>
+                        <td><img src="image/Andhaghaaram.jpg" alt=""><br><a href="">Andhaghaaram</a></td>
+                        <td><img src="image/kalakalappu.jpeg" alt=""><br><a href="">Kalakalappu</a></td>
+                        <td><img src="image/kanchana.jpeg" alt=""><br><a href="">Kanchana</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/managaram.jpg" alt=""><br><a href="">Managaram</a></td>
+                        <td><img src="image/sultan.jpeg" alt=""><br><a href="">Sultan</a></td>
+                        <td><img src="image/surya.jpeg" alt=""><br><a href="">soorarai pottru</a></td>
+                        <td><img src="image/karnan.jpeg" alt=""><br><a href="">Karnan</a></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+        </center>
+        </main>
+        <footer>
+            <div class="foo">
+                ShaowTracker@2021
+            </div>
+        </footer>
+    </div>  
+  
+        <script>
+$(document).ready(function(){
+$("#a").on("click", function() {
+var value = $(this).val();
+
+$("#myTable tr").filter(function() {
+$(this).toggle($(this).text().indexOf(value) > -1)
+});
+});
+});
+</script> 
+    
+</body>
+</html>

@@ -1,0 +1,381 @@
+/*index page style*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    background-color: white;
+    width: 99%;
+    border: 1px solid gray;
+    padding: 10px;
+    padding-left: 0;
+    
+}
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+span{
+    float: right;
+    padding-right: 20px;
+}
+li.yellow{
+    background-color: yellow;
+}
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+.nav li a:hover{
+    text-decoration: none;
+    color:rgb(180, 180, 214);
+}
+.abc {
+    text-align: center;
+}
+.abc a{
+    padding-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+.abc a:hover{
+    text-decoration: none;
+    color:rgb(180, 180, 214);
+}
+.head{
+    background-color: rgb(240, 232, 232);
+    margin: 0;
+    box-shadow: 0px 4px 8px 0px black;
+}
+.hsub{
+    padding: 30px;
+}
+
+.cata {
+    text-align: center;
+    margin: 15px;
+  
+}
+.cata a{
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    background-color:lightgray;
+}
+.cata a:hover{
+    text-decoration: none;
+    color:rgb(180, 180, 214);
+}
+.contain{
+    width: 100%;
+    height: 100%;
+    
+}
+img{
+    width: 180px;
+    height: 210px;
+    border-radius: 5px;
+   
+}
+.main{
+    background-color: rgb(212, 207, 207);
+    box-shadow: 0px 4px 8px 0px black;
+}
+td{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+   
+    
+}
+td input{
+    border: none;
+    float: right;
+    
+}
+.table{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+ a{
+    color: black;
+    text-decoration: none;
+
+}
+ a:hover{
+    text-decoration: none;
+    color:rgb(180, 180, 214);
+
+}
+td.x{
+    text-align: left;
+   
+
+}
+
+/*add page styles*/
+.add{
+    background-color: white;
+    width: 80%;
+    height: 250px;
+    margin-left: 140px;
+    box-shadow: 0px 4px 8px 0px black;
+}
+.addp{
+    text-align: left;
+    padding-top:7px;
+    padding-left: 5px;
+    padding-bottom: 0;
+    font-size: 15px;
+}
+.addin{
+    border: 1px solid;
+    width: 100%;
+    padding-left: 12px;
+    margin-top: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.addi{
+    padding-left: 20px;
+    padding-right:20px;
+
+}
+.addbut{
+    width: 7%;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+.master{
+    background-color: white;
+    width:70%;
+    height: 240px;
+}
+
+.masimg{
+  padding-left: 15px;
+   padding-top: 30px;
+   
+}
+.body{
+    background-color:  rgb(175, 170, 170); ;
+}
+
+/*login and signup styles */
+body{
+    background-color: rgb(206, 183, 183);
+}
+.z input{
+    border: none;
+    width: 80%;
+    font-size: 18px;
+    
+}
+.z{
+    border: 1px solid black;
+   padding-top:3.5px ;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 3.5px;
+   
+}
+.con{
+    width: 25%;
+    padding: 10px;
+    height: 430px;
+    background-color: white;
+    font-size: 12px;
+    margin-top: 100px;
+    margin-left: 470px;
+    box-shadow: 0px 4px 8px 0px black;
+}
+button{
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgb(32, 134, 32);
+    color: white;
+    opacity:0.5;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    margin-top:15px;
+
+}
+h5{
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+}
+h5:before{
+    background-color: black;
+    display: block;
+    width: 140px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    opacity: 0.2;
+    
+}
+h5:after{
+    background-color: black;
+    display: block;
+    width: 140px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    opacity: 0.2;
+    
+}
+.fb{
+    background-color: blue;
+    font-weight: bold;
+}
+.goo{
+    background-color:red;
+    margin-top: 5px;
+}
+.blue{
+    color: blue;
+}
+h3{
+    
+    font-size: 25px;
+}
+valid{
+    text-align: right;
+    padding-top: 3px;
+}
+input{
+    outline: none;
+}
+#error-email{
+    color: red;
+    font-size: 15px;
+}
+#error-password{
+    color: red;
+    font-size: 15px;
+}
+#error-user{
+    color: red;
+    font-size: 15px;
+}
+#succ{
+    color: green;
+    font-weight: bold;
+}
+
+#invalid-email{
+    color: red;
+    font-size: 15px;
+}
+#invalid-pass{
+    color: red;
+    font-size: 15px;
+}
+#img{
+    width: 20px;
+    height: 20px;
+    padding-right: 7px;
+}
+#invalid-name{
+    color: red;
+    font-size: 15px;
+}
+
+/*single page*/
+.mas{
+    width:78%;
+    margin-left: 160px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px black;
+}
+.masimg{
+    width: 20%;
+}
+#masbutt{
+    background-color: blue;
+    color: black;
+    font-weight: bold;
+    width: 186px;
+    opacity: 1;
+}
+.mascon{
+    padding-bottom: 90px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+si{
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;
+}
+.masp{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: justify;
+}
+.next{
+    height: 30px;
+    background-color: rgb(245, 237, 237);
+    width:77.3%;
+    margin-left: 160px;
+    padding-top: 5px;
+    padding-left:10px ;
+    box-shadow: 0px 4px 8px 0px black;
+}
+.epi{
+    width:78%;
+    margin-left: 160px;
+    height: 350px;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 4px 8px 0px black;
+}
+#hor{
+    width: 2px;
+    height: 80px;
+    background-color: black;
+   margin-left: 5px;
+}
+.masmore{
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+ 
+}
+al{
+    padding-left: 550px;
+}
+.d{
+    background-color: rgb(228, 224, 224);
+}
+/* footer */
+.foo{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
